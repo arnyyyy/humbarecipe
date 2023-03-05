@@ -1,0 +1,95 @@
+/* ALL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* content */
+.food {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(132deg, #ff7f38 0.00%, #ffc46c 100.00%);
+}
+.left, .right {
+    width: 50%;
+}
+.left img {
+    width: 150%;
+}
+.right {
+    margin: 1% 0 0 12%;
+    text-align: left;
+}
+.right h1 {
+    font-size: 68px;
+    font-weight: 900;
+    color: #fff;
+    margin: 20px 0 10px;
+}
+.right p {
+    font-size: 23px;
+    font-weight: 400;
+    color: #83492d;
+}
+/* Table */
+.styled-table {
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 0.9em;
+    min-width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #83492d;
+    color: #ffffff;
+    font-size: 18px;
+}
+.styled-table th,
+.styled-table td {
+    padding: 8px 11px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #fef6ec;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #83492d;
+}
+/* list */
+.list {
+    min-height: 75%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(132deg, rgb(114, 43, 54) 0.00%, rgb(238, 178, 123) 100.00%);
+}
+.first, .last {
+    width: 50%;
+    margin: 50px 0;
+}
+.list h2 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #ffc46c;
+        margin-left: 100px;
+        margin-bottom: 30px;
+}
+.last img {
+    width: 100%;
+}
+.list ul li {
+    margin: 10px 100px 0;
+    list-style-type: none;
+    color: #fef6ec;
+}
